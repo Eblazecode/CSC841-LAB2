@@ -1,0 +1,13 @@
+flowchart TD
+    U((Student)) --> B[Browser]
+    B --> SPA[React SPA]
+    SPA --> R[React Router]
+    R --> D[Dashboard]
+    R --> P[Student Profile]
+    R --> C[Course Catalogue]
+    R --> G[Registration]
+    SPA --> UI[Reusable UI Components]
+    SPA --> S[Feature State]
+    SPA --> API[API Client]
+    API --> M[Mock Async Service]
+    M --> DATA[(Sample Data)]
